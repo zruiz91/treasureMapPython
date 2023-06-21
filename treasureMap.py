@@ -11,12 +11,15 @@ position = input("Where do you want to put the treasure? ")
 
 
 
-col_num = int(position[0]) - 1 
+col_num = int(position[0]) - 1
 
 row_num = int(position[1]) - 1
 
+x = map[row_num]
 
-map[row_num][col_num] = "X"
+x[col_num] = "X"
+
+# map[row_num][col_num] = "X"
 
 #Write your code above this row 👆
 
